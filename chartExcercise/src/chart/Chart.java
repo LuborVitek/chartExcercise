@@ -67,7 +67,6 @@ public class Chart {
 
 		chart = ChartFactory.createPieChart(null, pieDataset);
 		Font font = chart.getLegend().getItemFont();
-		System.out.println(chart.getLegend().getPadding());
 		chart.removeLegend();
 		
 		//Setting new shapes for legend items
